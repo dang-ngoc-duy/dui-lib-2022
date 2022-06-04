@@ -29,7 +29,7 @@ export default [
         sourcemap: true,
       },
     ],
-    external: ["@mui/styles"],
+    external: Object.keys(pkg.peerDependencies || {}),
     plugins: [
       babel({
         exclude: 'node_modules/**',
