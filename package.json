@@ -1,6 +1,6 @@
 {
   "name": "@duydangit/dui-lib-2022",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom React component library",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/duydangit"
