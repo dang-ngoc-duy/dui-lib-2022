@@ -29,7 +29,7 @@ export default [
         sourcemap: true,
       },
     ],
-    external: Object.keys(pkg.peerDependencies || {}),
+    external: Object.keys(packageJson.peerDependencies || {}),
     plugins: [
       babel({
         exclude: 'node_modules/**',
