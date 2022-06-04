@@ -1,7 +1,10 @@
 {
-  "name": "duireactlib",
+  "name": "@duydangit/dui-lib-2022",
   "version": "1.0.0",
   "description": "Custom React component library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/duydangit"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
