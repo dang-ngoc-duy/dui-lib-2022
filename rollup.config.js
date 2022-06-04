@@ -29,7 +29,7 @@ export default [
         sourcemap: true,
       },
     ],
-    //external: ["react", "@mui/styles"],
+    external: ["@mui/styles"],
     plugins: [
       babel({
         exclude: 'node_modules/**',
